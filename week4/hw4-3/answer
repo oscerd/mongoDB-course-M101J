@@ -1,0 +1,6 @@
+Indexes to create:
+
+1) db.posts.ensureIndex({date:-1})
+2) db.posts.ensureIndex({tags:1})
+3) db.posts.ensureIndex({permalink:1})
+

@@ -1,0 +1,19 @@
+db.posts.aggregate([
+	{$project: {
+		"_id":0,
+		"comments": 1
+	}},
+	{$unwind : "$comments"},
+	{$group: {
+		"_id" :"$comments.author",
+		"num_comments": {$sum:1}
+	}},
+	{$sort: {
+		"num_comments": -1
+	}},
+	{$limit: 1}
+]);
+
+answer:
+
+{ "_id" : "Gisela Levin", "num_comments" : 112 }
