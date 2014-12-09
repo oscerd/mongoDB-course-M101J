@@ -1,12 +1,12 @@
-MongoDB university - Course MongoDB for Java developers M101J
+# MongoDB university - Course MongoDB for Java developers M101J
 
-14 October 2014 - 9 December 2014
+__14 October 2014 - 9 December 2014__
 
-- Week 1: Introduction
-- Week 2: CRUD
-- Week 3: Schema Design
-- Week 4: Performance
-- Week 5: Aggregation Framework
-- Week 6: Application Engineering
-- Week 7: Case Studies
-- Final Exam
+- _Week 1: Introduction_
+- _Week 2: CRUD_
+- _Week 3: Schema Design_
+- _Week 4: Performance_
+- _Week 5: Aggregation Framework_
+- _Week 6: Application Engineering_
+- _Week 7: Case Studies_
+- _Final Exam_
